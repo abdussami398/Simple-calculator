@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    
+</head>
+
+<body>
+    <div>
+
+    <h1 class="center">Calculate Me!</h1>
+
+    <div class="container mx-auto flex flex-col">
+        <div>
+            <input  disabled placeholder="0" id="xyz" type="text" class="input">
+        </div>
+        <div class="row button-color">
+            <button class="button" onclick="getnum('7')">7</button>
+            <button class="button" onclick="getnum('8')">8</button>
+            <button class="button" onclick="getnum('9')">9</button>
+            <button class="button" onclick="getnum('/')">÷</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getnum('4')">4</button>
+            <button class="button" onclick="getnum('5')">5</button>
+            <button class="button" onclick="getnum('6')">6</button>
+            <button class="button" onclick="getnum('*')">X</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getnum('1')">1</button>
+            <button class="button" onclick="getnum('2')">2</button>
+            <button class="button" onclick="getnum('3')">3</button>
+            <button class="button" onclick="getnum('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getnum('0')">0</button>
+            <button class="button" onclick="getnum('.')">.</button>
+            <button class="button" onclick="getnum('-')">-</button>
+            <button class="button" onclick="getNumber()">=</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="clr()">C</button>
+            <button class="button" onclick="sqrt()">√</button>
+            <button class="button" onclick="backsp()">back</button>
+            <button class="button" onclick="sq()">Sq</button>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
